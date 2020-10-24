@@ -2,9 +2,7 @@ alsa-lib
 alsa-utils
 arc-gtk-theme
 chromium
-dmenu
 htop
-i3-gaps
 lxappearance
 nitrogen
 papirus-icon-theme

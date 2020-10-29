@@ -189,10 +189,12 @@ gaps outer 2
 
 
 exec_always --no-startup-id "hsetroot -solid #ffffff"
-#exec_always --no-startup-id "nitrogen --restore"
-exec_always --no-startup-id "wal -R"
+exec_always --no-startup-id "nitrogen --restore"
+#exec_always --no-startup-id "wal -R"
 exec --no-startup-id "picom -f"
 exec --no-startup-id "setxkbmap -layout us,ru -option 'grp:alt_shift_toggle,grp_led:scroll'"
 exec --no-startup-id numlockx
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id mpd
+
 
